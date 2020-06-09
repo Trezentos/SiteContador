@@ -8,12 +8,12 @@ body{
     background-size: cover;
     justify-content: center;
     margin: 0px;
-    border: aliceblue 1px solid;
+    
     display: flex;
     flex-direction: row;
     justify-items: center;
     height: 100%;
-    min-height: 449px;
+    
     
     
 
@@ -22,23 +22,27 @@ body{
 
 .bloco{
     
-    border: black 1px solid;
+    
     box-sizing: border-box;
     box-shadow: 0px 0px 2px 0.5px white;
    
-    margin-top: 5%;
-    margin-bottom: 5%;
+    margin: 5% 0px 5px 0px;
    
     height: 84%;
     width: 50%; 
 
-    min-width: 340px;
-    min-height: 400px;
-    max-width: 500px;
+    min-width: 350px;
+    max-width: 600px;
 
+    min-height: 350px;
+    max-height: 600px;
+
+    
+    
     background: url('./images/darkclareado.jpg') fixed repeat center;
-    background-size: contain;
-    background-clip: border-box;
+    background-attachment: scroll;
+    background-size: cover;
+    background-clip: content-box;
     
    
 }
